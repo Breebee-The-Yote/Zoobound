@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "path": "/spaceDebrisFields/2/list/8",
+        "value": "/sky/glitters/zoo.png"
+    },
+    {
+        "op": "add",
+        "path": "/spaceDebrisFields/1/list/8",
+        "value": "/sky/glitters/zoo.png"
+    },
+    {
+        "op": "add",
+        "path": "/spaceDebrisFields/0/list/8",
+        "value": "/sky/glitters/zoo.png"
+    }
+]

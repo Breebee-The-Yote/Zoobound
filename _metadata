@@ -1,10 +1,9 @@
 {
   "name" : "zoobound",
   "friendlyName" : "Zoobound",
-  "description" : "A starbound mod pertaining to zoophillia",
+  "description" : "A starbound mod pertaining to zoophilia",
   "author" : "Breebee",
-  "version" : "1.0 Silver",
-  "link" : "",
-  "tags" : "Crafting and Building",
+  "version" : "1.0 (Teal)",
+  "link" : "https://github.com/Breebee-The-Yote/Zoobound",
   "priority" : 0
 }

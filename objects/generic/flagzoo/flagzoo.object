@@ -1,0 +1,52 @@
+{
+  "objectName" : "flagzoo",
+  "colonyTags" : ["penguin"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The zoophile flag. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Zoophile Flag",
+  "race" : "penguin",
+
+  "apexDescription" : "A zoophile flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This zoophile flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Zoophile flag makess good point to teleport back to ussing teleporter!",
+  "glitchDescription" : "Observant. A small locator module attached to this zoophile flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This zoophile flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This zoophile flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this zoophile flag for quick teleportin'.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flagzooicon.png",
+  "orientations" : [
+    {
+      "image" : "flagzoo.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagzoo.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
